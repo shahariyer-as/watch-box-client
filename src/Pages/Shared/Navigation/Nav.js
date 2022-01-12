@@ -14,15 +14,14 @@ const Nav = () => {
                     <div className="wrapper animate__backInDown">
                         <div className="logo">
                             <Link to="/home">
-                                <img src={logo} alt="" width={90} /></Link>
+                                <img src={logo} alt="" width={71} /></Link>
                         </div>
                         <input type="radio" name="slider" id="menu-btn" />
                         <input type="radio" name="slider" id="close-btn" />
                         <ul className="nav-links">
                             <label for="close-btn" className="btn close-btn"><i className="fas fa-times"></i></label>
                             <li><Link to="/home">Home</Link></li>
-                            <li><Link to="/trees">Products</Link></li>
-                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/products">Products</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
                             {
                                 user?.email ?

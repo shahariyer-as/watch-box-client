@@ -1,0 +1,15 @@
+.homePart {
+    width: 100%;
+    height: 600px;
+    overflow-x: hidden;
+    background-image: url(http://sigmadigitalpartners.com/themes/templatemonster/wp/smatch/wp-content/uploads/2020/12/product.png?id=588);
+}
+
+.homepart-text {
+    margin-left: 100px;
+}
+
+.homePart-head {
+    font-size: 100px;
+    color: #d1c7bf;
+}

@@ -1,15 +1,19 @@
 import React from 'react';
 import Banner from '../../Banner/Banner';
+import Card from '../../Product/Card';
 import Footer from '../../Shared/Footer/Footer';
+import ExtraSec from '../ExtraSec/ExtraSec';
 
 const Home = () => {
     return (
-        <div>
+        <div style={{ backgorundColor: "black" }}>
             <Banner></Banner>
-            <div><h1>hello</h1></div>
+
+            <Card></Card>
+            <ExtraSec></ExtraSec>
 
             <Footer></Footer>
-        </div>
+        </div >
     );
 };
 

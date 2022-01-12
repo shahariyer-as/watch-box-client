@@ -5,6 +5,8 @@ import Home from './Pages/Home/Home/Home';
 import AuthProvider from './Pages/Login/Login/Firebase/Context/AuthProvider';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
+import Food from './Pages/Product/Buy/Food';
+import Card from './Pages/Product/Card';
 import Nav from './Pages/Shared/Navigation/Nav';
 
 function App() {
@@ -18,8 +20,10 @@ function App() {
             <Route path="/home" element={<Home></Home>}></Route>
             <Route path="/login" element={<Login></Login>}></Route>
             <Route path="/register" element={<Register></Register>}></Route>
-            {/* <Route path="/allproducts" element={<Pro />} />
-      <Route path="//booking/:productId" element={<Food />}/> */}
+            <Route path="/products" element={<Card></Card>}></Route>
+
+            <Route path="//booking/:productId" element={<Food />} />
+
           </Routes>
 
         </BrowserRouter>
