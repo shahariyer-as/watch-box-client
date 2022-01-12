@@ -1,11 +1,14 @@
 import React from 'react';
-import Navigation from '../../Shared/Navigation/Navigation';
+import Banner from '../../Banner/Banner';
+import Footer from '../../Shared/Footer/Footer';
 
 const Home = () => {
     return (
         <div>
-            <Navigation></Navigation>
-            <h2>hello home</h2>
+            <Banner></Banner>
+            <div><h1>hello</h1></div>
+
+            <Footer></Footer>
         </div>
     );
 };
